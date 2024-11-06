@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Cadastro de Produtos</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="empresa.html">Quem Somos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="produtos.html">Cadastro de Produtos</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h2>Adicionar Produto</h2>
+    <form id="productForm">
+        <label>Nome do Produto</label>
+        <input id="productName" type="text" required>
+        <label>Descrição</label>
+        <input id="productDescription" type="text" required>
+        <label>Preço</label>
+        <input id="productPrice" type="number" required>
+        <button type="submit">Adicionar Produto</button>
+    </form>
+
+    <h3>Produtos Disponíveis</h3>
+    <ul id="productList">
+      
+    </ul>
+</main>
+
+<script src="js/script.js"></script>
+
+<footer>
+    <p>Papelaria criativa - Sempre trazendo criatividade © 2024</p>
+</footer>
+
+</body>
+</html>
